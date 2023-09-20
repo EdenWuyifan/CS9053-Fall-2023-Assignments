@@ -31,7 +31,7 @@ class Permutations {
 	}
 
     public static void main(String[] args) {
-    	int[] startingArray =   {1, 3, 4};
+    	int[] startingArray =   {1, 2, 3, 4, 5};
     	ArrayList<int[]> result = getPermutations(startingArray);
     	for (int[] x : result) {
             System.out.println(Arrays.toString(x));
